@@ -10,7 +10,7 @@ public class SpringQuestionBankController {
 	@RequestMapping("/")
 	@ResponseBody
 	String home() {
-		return "Hello World!";
+		return "Hello World";
 	}
 	
 	@RequestMapping("/index")
